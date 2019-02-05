@@ -1,4 +1,4 @@
-# my-first-nuxt-app
+# nuxt-blog-service
 
 ## Requirement
 - Docker
@@ -6,14 +6,14 @@
 ## Usage
 
 ```shell
-$ git clone https://github.com/satokibi/my-first-nuxt-app
-$ cd my-first-nuxt-app
+$ git clone https://github.com/satokibi/nuxt-blog-service
+$ cd nuxt-blog-service
 $ docker-compose up -d --build
 $ docker-compose exec web /bin/ash
 ```
 
 ```terminal:コンテナ内
-/app/vue-project # cd my-first-nuxt-app
+/app/vue-project # cd nuxt-blog-service
 /app/vue-project # npm run dev
 ```
 
